@@ -3,12 +3,12 @@ const path = require('path');
 const fs = require('fs');
 
 const generateMerkleTree = () => {
-  const inputFilePath = path.join(__dirname, 'data/merkleInput.json');
-  const merkleRootOutputPath = path.join(__dirname, 'data/merkleroot.json');
-  const merkleLeavesOutputPath = path.join(__dirname, 'data/merkleleaves.json');
-  const goExecutablePath = path.join(__dirname, 'KYCMerkleTree/KYCMerkleTree');
+  const inputFilePath = path.join(__dirname, '../data/merkleInput.json');
+  const merkleRootOutputPath = path.join(__dirname, '../data/merkleroot.json');
+  const merkleLeavesOutputPath = path.join(__dirname, '../data/merkleleaves.json');
+  const goExecutablePath = path.join(__dirname, 'Proof.exe');
 
-  const command = `${goExecutablePath} -input="${inputFilePath}" -rootOut="${merkleRootOutputPath}" -leavesOut="${merkleLeavesOutputPath}"`;
+  const command = `"${goExecutablePath}" -input="${inputFilePath}" -rootOut="${merkleRootOutputPath}" -leavesOut="${merkleLeavesOutputPath}"`;
 
   console.log(`Executing command: ${command}`);
 
@@ -36,4 +36,3 @@ const generateMerkleTree = () => {
 };
 
 module.exports = generateMerkleTree;
-

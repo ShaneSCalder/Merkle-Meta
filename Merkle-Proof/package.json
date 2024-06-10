@@ -1,0 +1,25 @@
+{
+    "name": "merkle-proof",
+    "version": "1.0.0",
+    "description": "A tool for generating Merkle trees and roots from JSON input data.",
+    "main": "windows/runMerkleProof.js",
+    "scripts": {
+      "start-linux": "node linux/runMerkleProofL.js",
+      "start-windows": "node windows/runMerkleProof.js"
+    },
+    "dependencies": {
+      "fs": "0.0.1-security",
+      "path": "^0.12.7"
+    },
+    "author": "Shane S. Calder",
+    "license": "Custom",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ShaneSCalder/Merkle-Meta/tree/main/Merkle-Proof"
+    },
+    "bugs": {
+      "url": "https://github.com/ShaneSCalder/Merkle-Meta/issues"
+    },
+    "homepage": "https://github.com/ShaneSCalder/Merkle-Meta#readme"
+  }
+  
