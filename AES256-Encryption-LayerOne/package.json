@@ -1,0 +1,16 @@
+{
+    "name": "AES256-Encryption-LayerOne",
+    "version": "1.0.0",
+    "description": "A project for AES256 encryption and decryption.",
+    "main": "bin/interaction.js",
+    "scripts": {
+      "encrypt": "node bin/interaction.js encrypt",
+      "decrypt": "node bin/interaction.js decrypt",
+      "encrypt-item": "node bin/interaction.js encrypt-item",
+      "decrypt-item": "node bin/interaction.js decrypt-item"
+    },
+    "dependencies": {
+      "crypto": "^1.0.1"
+    }
+  }
+  
