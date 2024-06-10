@@ -151,7 +151,7 @@ We welcome contributions to improve the AES256-Encryption-LayerOne project. Here
 
 ## Contact
 For more information about this License or to obtain a commercial license, please contact info@merklemeta.com.
-```
+
 
 
 
