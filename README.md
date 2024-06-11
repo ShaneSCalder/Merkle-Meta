@@ -10,7 +10,7 @@ AES256-Encryption-LayerOne is a robust tool for AES256 encryption and decryption
 
 [More information](https://github.com/ShaneSCalder/Merkle-Meta/tree/main/AES256-Encryption-LayerOne)
 
-[Link to NPM Package]([https://github.com/ShaneSCalder/Merkle-Meta/tree/main/AES256-Encryption-LayerOne](https://www.npmjs.com/package/@shanescalder/aes256-encryption-layerone))
+[Link to NPM Package](https://www.npmjs.com/package/@shanescalder/aes256-encryption-layerone)
 
 ### 2. Merkle-Proof
 The Merkle-Proof repository deploys a comprehensive Merkle tree that includes built-in security features and is optimized for web forms. As long as the input data is formatted correctly in JSON, it can process hundreds of inputs per Merkle tree. The tool generates a Merkle root and allows for the creation of customizable Merkle proofs based on the data shared. Combined with public data, this tool can mimic zero-knowledge (ZK) proofs and is particularly robust for larger data sets, such as medical data, training records, educational records, HR documents, and more.
