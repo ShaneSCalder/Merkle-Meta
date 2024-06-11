@@ -17,6 +17,8 @@ The Merkle-Proof repository deploys a comprehensive Merkle tree that includes bu
 
 [More information](https://github.com/ShaneSCalder/Merkle-Meta/tree/main/Merkle-Proof)
 
+[Link to NPM Package](https://www.npmjs.com/package/@shanescalder/merkleproof)
+
 ## License
 The software in this repository is licensed under a custom license. See the `LICENSE.md` file in each repository for more information.
 
