@@ -24,3 +24,7 @@ The software in this repository is licensed under a custom license. See the `LIC
 
 ## Contact
 For more information or to obtain a commercial license, please contact info@merklemeta.com.
+
+
+
+<img src="https://github.com/ShaneSCalder/Merkle-Meta/assets/29208274/014f9274-b6a9-42c6-9a35-44b8c65b8aaf" alt="MerkleMetaPrivacyProofsMadeSimple" width="400"/>
